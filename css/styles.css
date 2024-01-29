@@ -28,9 +28,11 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: var(--secondary-3-eggShell);
 }
 .container {
   max-width: 50rem;
+  background-color: var(--secondary-1-white);
 }
 header {
   margin-bottom: 2.5rem;
@@ -130,6 +132,8 @@ li::marker {
 @media (min-width: 30rem) {
   header {
     margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
   img {
     border-radius: 1rem;
