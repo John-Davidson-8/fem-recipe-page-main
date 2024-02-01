@@ -25,12 +25,11 @@ body {
   font-size: 1.2rem;
   color: var(--secondary-6-darkCharcoal);
   line-height: 1.5;
-  min-width: 23.5rem;
   min-height: 100vh;
 }
 .container {
   background-color: var(--secondary-1-white);
-  max-width: 40rem;
+  max-width: 50em;
   margin: auto;
 }
 .recipe-information {
@@ -118,14 +117,19 @@ td {
   margin-left: 6rem;
   margin-right: 6rem;
 }
-@media (min-width: 30rem) {
-  header {
-    margin-top: 2rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-  }
+@media (min-width: 45rem) {
   img {
     border-radius: 1rem;
+  }
+  .recipe-image {
+    padding: 2rem;
+  }
+  .recipe-container {
+    max-width: 60rem;
+  }
+  .data {
+    margin-left: 20rem;
+    margin-right: 24rem;
   }
 }
 
