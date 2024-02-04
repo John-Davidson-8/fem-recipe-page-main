@@ -30,7 +30,7 @@ body {
 .container {
   background-color: var(--secondary-1-white);
   max-width: 50rem;
-  margin: auto;
+  margin: 6rem auto;
   border-radius: 1rem;
 }
 .recipe-information {
